@@ -1,0 +1,9 @@
+package Lista8zad1;
+
+public class FullException extends Exception {
+	
+	public FullException() {}    
+	public FullException(String message) {        
+		super(message);    
+	}
+}
